@@ -15,7 +15,7 @@ namespace Zencoder
     [JsonObject(MemberSerialization = MemberSerialization.OptIn)]
     public class DeleteJobRequest : Request<DeleteJobRequest, DeleteJobResponse>
     {
-        private int jobId;
+        private long jobId;
         private Uri url;
 
         /// <summary>
